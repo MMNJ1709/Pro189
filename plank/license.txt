@@ -1,0 +1,11 @@
+Model Information:
+* title:	Plank bridge
+* source:	https://sketchfab.com/3d-models/plank-bridge-ea79a4fe83fb4b5181bd68614c73e84a
+* author:	Thomas Hollaender (https://sketchfab.com/thomashollaender)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Plank bridge" (https://sketchfab.com/3d-models/plank-bridge-ea79a4fe83fb4b5181bd68614c73e84a) by Thomas Hollaender (https://sketchfab.com/thomashollaender) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

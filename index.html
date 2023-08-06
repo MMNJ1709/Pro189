@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js"></script>
+
+<script src="//unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+<script src="https://recast-api.donmccurdy.com/aframe-inspector-plugin-recast.js" crossorigin="anonymous"></script> 
+<script src="//cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js" ></script>
+
+  </head>
+  <body>
+    <a-scene id="scene" background="color:lightblue" inspector-plugin-recast>
+    <!--assets-->>
+    <a-assets>
+        <a-asset-item id="house" src="./models/cabin/scene.gltf"></a-asset-item>
+    </a-assets>
+    <a-assets>
+      <a-asset-item id="player" src="./models/boy/scene.gltf"></a-asset-item>
+    </a-assets>
+    <a-assets>
+      <a-asset-item id="boulder" src="./models/boulder/scene.gltf"></a-asset-item>
+    </a-assets>
+    <a-assets>
+      <a-asset-item id="chair" src="./models/chair/scene.gltf"></a-asset-item>
+    </a-assets>
+    <a-assets>
+      <a-asset-item id="bin" src="./models/dustbin/scene.gltf"></a-asset-item>
+    </a-assets>
+    <a-assets>
+      <a-asset-item id="ladder" src="./models/ladder/scene.gltf"></a-asset-item>
+    </a-assets>
+   
+
+    <!--sounds-->>
+    <!--light-->
+   
+        <!--environment-->>
+        <a-entity id="env" environment="preset:forest"></a-entity>
+        <!--boundary-->>
+        <a-entity id="house1" rotation="0 90 0" gltf-model="#house" position="-10 0 -15"
+        scale="0.0015 0.0015 0.0015" animation-mixer static-body></a-entity>
+
+
+    
+    <!--ground-->>
+        <a-entity id="ground" color="lightgreen" visible="false" rotation="-90 0 0" position="0 0 0" geometry="height:400; width:400; depth:10" ></a-entity>
+    <!--navigation Mesh-->>
+    <!--cursor and camera-->>
+    <a-entity id="camera-rig" movement-controls="speed: 0.2; constrainToNavMesh: true" position="0 1 2" rotation="0 0 0">
+      <!--Camera and Cursor-->
+      <a-entity id="camera" camera position="0 1.6 0" look-controls="pointerLockEnabled: false" rotation="0 0 0">
+        <a-entity id="player1" gltf-model="#player" position="0 -4.4 3" rotation="0 0 0" scale="10 10 10"
+          >
+        </a-entity>
+        </a-entity>
+        </a-entity>
+
+   
+    </a-scene>
+
+
+  </body>
+</html>

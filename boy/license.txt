@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sairy
+* source:	https://sketchfab.com/3d-models/sairy-bf2bc328f2d64d8e934019f0757c7e6f
+* author:	sir Kev (https://sketchfab.com/kevLop)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sairy" (https://sketchfab.com/3d-models/sairy-bf2bc328f2d64d8e934019f0757c7e6f) by sir Kev (https://sketchfab.com/kevLop) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
